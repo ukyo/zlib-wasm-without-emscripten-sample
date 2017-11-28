@@ -21,6 +21,7 @@ console.log(myZlib.inflate(deflated).equals(buffer));
 
 ## Benchmark
 
+* NodeJS: v8.9.1
 * OS: MacBook Pro
 * CPU: Intel Core i5 2.4GHz 
 * Memory: 16GB

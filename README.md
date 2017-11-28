@@ -26,7 +26,7 @@ console.log(myZlib.inflate(deflated).equals(buffer));
 * Memory: 16GB
 
 ```
-npm run bench:deflate
+$ npm run bench:deflate
 ## payload size: 1000205
 wasm x 10.30 ops/sec ±2.05% (30 runs sampled)
 pako x 8.46 ops/sec ±5.26% (25 runs sampled)

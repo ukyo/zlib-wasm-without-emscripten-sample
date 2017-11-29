@@ -1,4 +1,4 @@
-# zlib-wasm-without-emsripten-sample
+# zlib-wasm-without-emscripten-sample
 
 A zlib WebAssembly binary build sample with [dcodeIO/webassembly](https://github.com/dcodeIO/webassembly).
 

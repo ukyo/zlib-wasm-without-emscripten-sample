@@ -6,8 +6,7 @@
   "scripts": {
     "test": "ava test/test.js",
     "build": "node build.js",
-    "bench:deflate": "node benchmark/def.js",
-    "bench:inflate": "node benchmark/inf.js"
+    "bench": "node benchmark/bench-1mbtxt.js"
   },
   "author": "ukyo",
   "license": "MIT",

@@ -27,17 +27,16 @@ console.log(myZlib.inflate(deflated).equals(buffer));
 * Memory: 16GB
 
 ```
-$ npm run bench:deflate
-## payload size: 1000205
-wasm x 10.30 ops/sec ±2.05% (30 runs sampled)
-pako x 8.46 ops/sec ±5.26% (25 runs sampled)
-native x 15.25 ops/sec ±2.49% (41 runs sampled)
-Fastest is native
+$ npm run bench
 
-$ npm run bench:inflate
-## payload size: 1000205
-wasm x 151 ops/sec ±2.70% (69 runs sampled)
-pako x 105 ops/sec ±3.66% (66 runs sampled)
-native x 199 ops/sec ±3.88% (66 runs sampled)
-Fastest is native
+## lorem_1mb.txt size: 1000205
+wasm x 9.61 ops/sec ±4.48% (27 runs sampled)
+pako x 8.70 ops/sec ±2.26% (25 runs sampled)
+native x 15.21 ops/sec ±3.15% (41 runs sampled)
+Deflate: Fastest is native
+## deflated lorem_1mb.txt size: 257012
+wasm x 120 ops/sec ±10.26% (60 runs sampled)
+pako x 106 ops/sec ±8.56% (67 runs sampled)
+native x 211 ops/sec ±2.68% (74 runs sampled)
+Inflate: Fastest is native
 ```

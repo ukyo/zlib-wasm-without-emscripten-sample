@@ -5,7 +5,7 @@ A zlib WebAssembly binary build sample with [dcodeIO/webassembly](https://github
 ## Initialize and Build code
 
 ```
-$ git clone https://github.com/ukyo/zlib-wasm-without-emsripten-sample.git
+$ git clone https://github.com/ukyo/zlib-wasm-without-emscripten-sample.git
 $ cd zlib-wasm-without-emsripten-sample
 $ npm install
 $ npm run build

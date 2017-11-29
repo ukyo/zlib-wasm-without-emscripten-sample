@@ -1,5 +1,5 @@
 {
-  "name": "zlib-wasm-without-emsripten-sample",
+  "name": "zlib-wasm-without-emscripten-sample",
   "version": "0.1.0",
   "description": "A zlib WebAssembly binary build sample.",
   "main": "build.js",

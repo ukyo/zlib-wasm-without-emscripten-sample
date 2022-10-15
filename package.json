@@ -11,10 +11,10 @@
   "author": "ukyo",
   "license": "MIT",
   "devDependencies": {
-    "ava": "^0.24.0",
+    "ava": "^4.3.3",
     "benchmark": "^2.1.4",
-    "mkdirp": "^0.5.1",
-    "pako": "^1.0.6",
+    "mkdirp": "^1.0.4",
+    "pako": "^2.0.4",
     "webassembly": "^0.11.0"
   }
 }
